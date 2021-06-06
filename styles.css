@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./img/background.jpg);
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  padding: 25px;
+  padding-top: 50px;
+}
+.card {
+  position: relative;
+  top: 200px;
+  left: 800px;
+  width: 20%;
+  height: 20%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.6);
+}
+
+.track {
+  position: absolute;
+  padding: 10px;
+  margin: 10px;
+  left: 150px;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.circle-1 {
+  background-color: gray;
+}
+
+.circle-2, .circle-3 {
+  background-color: lightgray;
+}
+
+.circle-2 {
+  position: relative;
+  left: 25px;
+  top: -10px;
+}
+
+.circle-3 {
+  position: relative;
+  left: 50px;
+  top: -20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  cursor: pointer;
+  background: rgb(230,230, 230);
+}
+.credit-card {
+  padding: 0px 0 10px 25px;
+}
+
+.credit-card:hover {
+  cursor: pointer;
+  background-color: rgb(230, 230, 230);
+}
+hr {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+img {
+  width: 15%;
+  margin-right: 20px;
+}
+
+
+.check {
+  position: relative;
+  left: 130px;
+  width: 5%;
+}
+
+.button {
+  background-color: #5990D9;
+  color: white;
+  height: 60px;
+  margin-top: 10px;
+  padding-top: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+}
+
+.arrow {
+  width: 5%;
+  padding: 5px 0 0 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+  filter:brightness(110%);
+}
+
+.button:active {
+  transform:translateY(.5px);
+}
